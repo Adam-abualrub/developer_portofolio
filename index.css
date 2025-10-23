@@ -2,25 +2,33 @@ body {
     background-color: lightgrey;
     margin-top: 0;
 }
+.BG{
+    background-image: linear-gradient(to bottom,black 1%, lightgrey 60%);
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top:0;
+    left:0;
+    z-index: -1;
+}
 .navbar{
     display: flex;
-    justify-content:space-between
-
+    justify-content:space-between;
+      color:white;
 }
 .lamp-image {
     width:34rem ;
     position: absolute;
-    margin-left: 6rem;
+    margin-left: 5rem;
     /* margin-top: -5rem; */
 }
 
 .text-container{
-    display: flex;
-    background-color: aquamarine;
+    display: flex; 
     height: 92vh;
     flex-direction: column;
     justify-content: center;
-    margin-top: -4rem;
+    margin-top: -3rem;
 }
 .title{
     font-size: 5rem;
