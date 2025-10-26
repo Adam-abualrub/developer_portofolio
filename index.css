@@ -2,55 +2,72 @@ body {
     background-color: lightgrey;
     margin-top: 0;
 }
-.BG{
-    background-image: linear-gradient(to bottom,black 1%, lightgrey 60%);
+
+.BG {
+    background-image: linear-gradient(to bottom, black 1%, lightgrey 60%);
     position: absolute;
     width: 100vw;
     height: 100vh;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     z-index: -1;
 }
-.navbar{
+
+.navbar {
     display: flex;
-    justify-content:space-between;
-      color:white;
+    justify-content: space-between;
+    color: white;
+    font-size: large;
+    height:4rem;
 }
+
 .lamp-image {
-    width:34rem ;
+    width: 34rem;
     position: absolute;
     margin-left: 5rem;
     /* margin-top: -5rem; */
 }
 
-.text-container{
-    display: flex; 
+.text-container {
+    display: flex;
     height: 92vh;
     flex-direction: column;
     justify-content: center;
     margin-top: -3rem;
 }
-.title{
+
+.title {
     font-size: 5rem;
     margin-right: 5rem;
-    margin-bottom:2rem ;
+    margin-bottom: 2rem;
     display: flex;
-    justify-content:flex-end;
-    align-content:center; 
+    justify-content: flex-end;
+    align-content: center;
 }
-.sub-title{
-    margin:0rem;
+
+.sub-title {
+    margin: 0rem;
     margin-right: 5rem;
     font-size: 4rem;
     display: flex;
-    justify-content:flex-end;
-    align-items:center;    
+    justify-content: flex-end;
+    align-items: center;
 }
-.About-Me{
-    margin:0rem;
+
+.About-Me {
+    margin: 0rem;
     margin-right: 5rem;
     font-size: 3rem;
     display: flex;
-    justify-content:flex-end;
-    align-items:center;        
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.My-Name {
+    text-align: center;
+    transition: 0.15s;
+}
+
+.My-Name:hover {
+    font-size: 1.3rem;
 }
