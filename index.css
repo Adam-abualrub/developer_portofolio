@@ -71,3 +71,16 @@ body {
 .My-Name:hover {
     font-size: 1.3rem;
 }
+.My-Job{
+    margin: 0rem;
+    margin-right: 5rem;
+    font-size: 3rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    transition: 0.1s;
+    font-weight:lighter;
+}
+.My-Job:hover {
+    font-weight: bold; 
+}
