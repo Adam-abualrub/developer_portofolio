@@ -18,14 +18,32 @@ body {
     justify-content: space-between;
     color: white;
     font-size: large;
-    height:4rem;
+    height: 4rem;
 }
 
 .lamp-image {
-    width: 34rem;
+    width: 30rem;
     position: absolute;
     margin-left: 5rem;
-    /* margin-top: -5rem; */
+    animation-name: lamp-image;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes lamp-image {
+    0% {
+        transform: rotate(0);
+    }
+
+    50% {
+        transform: rotate(10deg);
+    }
+
+    100% {
+        transform: rotate(-10deg);
+    }
+
 }
 
 .text-container {
@@ -71,7 +89,8 @@ body {
 .My-Name:hover {
     font-size: 1.3rem;
 }
-.My-Job{
+
+.My-Job {
     margin: 0rem;
     margin-right: 5rem;
     font-size: 3rem;
@@ -79,8 +98,9 @@ body {
     justify-content: flex-end;
     align-items: center;
     transition: 0.1s;
-    font-weight:lighter;
+    font-weight: lighter;
 }
+
 .My-Job:hover {
-    font-weight: bold; 
+    font-weight: bold;
 }
