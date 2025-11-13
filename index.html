@@ -20,7 +20,7 @@
         <h1 class="title">
             DEVELOPER PORTOFOLIO
         </h1>
-        <p class="sub-title">
+        <p id="app" class="sub-title">
             Active/Young/Talented
         </p>
         <p class="About-Me">
@@ -31,6 +31,28 @@
         </p>
         <p class="lower-nav"></p>
     </div>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script>
+        var app = document.getElementById('app');
+
+        var typewriter = new Typewriter(app, {
+            loop: true,
+            delay: 75,
+        });
+
+        typewriter
+            .pauseFor(2500)
+            .typeString('Active')
+            .pauseFor(500)
+            .deleteAll("natural")
+            .typeString('Young')
+            .pauseFor(500)
+            .deleteAll("natural")
+            .typeString('Talent')
+            .pauseFor(500)
+            .deleteAll("natural")
+            .start();
+    </script>
 
 </body>
 
