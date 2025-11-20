@@ -102,12 +102,12 @@ body {
     font-weight: bold;
 }
 
-.square-container {
-    margin-top: 7.5rem;
+.first-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    gap: 0.5rem;
 }
 
 .square {
@@ -115,7 +115,7 @@ body {
     border-radius: 3rem;
     width: 15rem;
     font-size: 2rem;
-    height: 12rem;
+    height: 16rem;
     align-content: center;
     padding: 0.5rem;
     text-align: center;
@@ -131,10 +131,20 @@ body {
     text-align: center;
 }
 
-.circle-container {
-    margin-top: 7.5rem;
+.second-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    gap: 0.5rem;
+}
+
+.mega-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding-bottom: 6rem;
+    padding-top: 6rem;
 }
