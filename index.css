@@ -148,3 +148,13 @@ body {
     padding-bottom: 6rem;
     padding-top: 6rem;
 }
+.square:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: 1;
+}
+
+@keyframes shake {
+  0% { transform: rotate(0deg); }
+  50% { transform:  rotate(-10deg); }
+  100% { transform:  rotate(10deg); }
+}
