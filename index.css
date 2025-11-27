@@ -145,16 +145,44 @@ body {
     justify-content: center;
     align-items: center;
     gap: 3rem;
-    padding-bottom: 6rem;
-    padding-top: 6rem;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
 }
+
 .square:hover {
-  animation: shake 0.5s;
-  animation-iteration-count: 1;
+    animation: shake 0.5s;
+    animation-iteration-count: 1;
 }
 
 @keyframes shake {
-  0% { transform: rotate(0deg); }
-  50% { transform:  rotate(-10deg); }
-  100% { transform:  rotate(10deg); }
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-10deg);
+    }
+
+    100% {
+        transform: rotate(10deg);
+    }
+}
+
+.circle-1 {
+    border: rgb(0, 0, 0) 3px solid;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    font-size: 3.5rem;
+    align-content: center;
+    text-align: center;
+    align-self: flex-end;
+    margin-right: 12.5rem;
+    rotate: 90deg;
+}
+
+.paragragh {
+    font-size: 2rem;
+    align-content: center;
+    text-align: center;
 }
