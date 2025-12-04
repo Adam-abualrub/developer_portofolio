@@ -132,6 +132,11 @@ body {
     text-align: center;
 }
 
+.special-circle {
+    display: none;
+
+}
+
 .second-container {
     display: flex;
     flex-direction: row;
@@ -223,15 +228,15 @@ body {
     font-weight: bold;
 }
 
+.last-text {
+    display: none;
+}
+
 @media only screen and (max-width: 600px) {
 
     .lamp-image {
         width: 22rem;
         margin-left: 0rem;
-    }
-
-    .mega-container {
-        display: none;
     }
 
     .title {
@@ -282,5 +287,41 @@ body {
         margin-top: -7.5rem;
     }
 
+    .first-container {
+        flex-direction: column;
+    }
 
+    .second-container {
+        flex-direction: column;
+    }
+
+    .big-text-center {
+        display: none;
+    }
+
+    .mega-container {
+        gap: 1rem
+    }
+
+    .special-circle {
+        display: flex;
+        border: rgb(0, 0, 0) 3px solid;
+        border-radius: 50%;
+        width: 4rem;
+        height: 4rem;
+        font-size: 3.5rem;
+        align-content: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .last-text {
+        display: flex;
+        font-size: 2.5rem;
+        align-content: center;
+        text-align: center;
+        font-weight: bold;
+        width: 100%;
+        margin-top: 1rem;
+    }
 }
