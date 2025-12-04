@@ -116,7 +116,7 @@ body {
     width: 15rem;
     font-size: 2rem;
     height: 16rem;
-    align-content:center;
+    align-content: center;
     padding: 0.5rem;
     position: relative;
     text-align: center;
@@ -204,7 +204,7 @@ body {
     align-self: flex-end;
 }
 
-.circle-2{
+.circle-2 {
     border: rgb(0, 0, 0) 3px solid;
     border-radius: 50%;
     width: 4rem;
@@ -213,7 +213,7 @@ body {
     align-content: center;
     text-align: center;
     align-self: flex-end;
-    rotate: 90deg;    
+    rotate: 90deg;
 }
 
 .paragragh {
@@ -221,4 +221,63 @@ body {
     align-content: center;
     text-align: center;
     font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .lamp-image {
+        width: 22rem;
+        margin-left: 0rem;
+    }
+
+    .mega-container {
+        display: none;
+    }
+
+    .title {
+        font-size: 4rem;
+        margin-right: 0rem;
+        margin-bottom: 12rem;
+        display: flex;
+        justify-content: flex-end;
+        align-content: center;
+        text-align: center;
+    }
+
+    .sub-title {
+        margin: 0rem;
+        font-size: 3rem;
+    }
+
+    .About-Me {
+        font-size: 2.3rem;
+        margin: 0;
+    }
+
+    .My-Name {
+        text-align: center;
+        transition: 0.15s;
+    }
+
+    .My-Name:hover {
+        font-size: 1.3rem;
+    }
+
+    .My-Job {
+        font-size: 2.2rem;
+        margin: 0;
+    }
+
+    .My-Job:hover {
+        font-weight: bold;
+    }
+
+    .text-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+
 }
