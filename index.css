@@ -145,14 +145,14 @@ body {
     gap: 0.5rem;
 }
 
-.circle-bottom{
+.circle-bottom {
     border: rgb(0, 0, 0) 3px solid;
     border-radius: 50%;
     width: 4rem;
     height: 4rem;
     font-size: 3.5rem;
     align-content: center;
-    text-align: center;    
+    text-align: center;
 }
 
 .mega-container {
@@ -323,6 +323,7 @@ body {
         align-content: center;
         text-align: center;
         justify-content: center;
+        rotate: 90deg;
     }
 
     .last-text {
@@ -339,8 +340,8 @@ body {
         rotate: 90deg;
     }
 
-.circle-bottom{
-    rotate: 270deg;
-}    
+    .circle-bottom {
+        rotate: 270deg;
+    }
 
 }
