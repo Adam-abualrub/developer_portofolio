@@ -292,7 +292,7 @@ body {
     }
 
     .second-container {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .big-text-center {
@@ -324,4 +324,10 @@ body {
         width: 100%;
         margin-top: 1rem;
     }
+
+    .circle {
+        rotate: 90deg;
+    }
+
+
 }
